@@ -1,0 +1,160 @@
+html,body {
+  font-family: "Lora", "Helvetica Neue", Helvetica, Arial, sans-serif;
+  overflow-x: hidden;
+}
+
+a,
+a:hover,
+a:focus,
+a:active,
+a.active {
+  color: #18BC9C;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5
+{
+  margin: 0 0 35px;
+  text-transform: uppercase;
+  font-family: "Montserrat", "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font-weight: bold;
+  letter-spacing: 1px;
+}
+p  {
+  margin: 0 0 25px;
+  font-size: 1.25em;
+  line-height: 1.5;
+}
+
+.about-color{
+  color: #FFA500;
+}
+.navbar-custom {
+  background: #2C3E50;
+  font-family: "Montserrat", "Helvetica Neue", Helvetica, Arial, sans-serif;
+  text-transform: uppercase;
+  font-weight: bold;
+  border: none;
+  padding-top: 1em;
+  padding-bottom: 1em;
+}
+.navbar-custom .navbar-brand {
+  color: white;
+}
+
+.navbar-custom .navbar-nav {
+  letter-spacing: 1px;
+}
+.navbar-custom .navbar-nav li a {
+  color: white;
+}
+.navbar-custom .navbar-nav li a:hover {
+  color: #18BC9C;
+}
+.navbar-custom .navbar-nav li.active a {
+  color: white;
+  background: #18BC9C;
+}
+.navbar-custom .navbar-nav li.active a {
+  color: white;
+  background: #18BC9C;
+}
+.navbar-custom .navbar-nav li.active a:hover,
+.navbar-custom .navbar-nav li.active a:focus,
+.navbar-custom .navbar-nav li.active a:active {
+  color: white;
+  background: #18BC9C;
+}
+.navbar-custom .navbar-toggle {
+  color: white;
+  text-transform: uppercase;
+  font-size: 10px;
+  border-color: white;
+}
+.navbar-custom .navbar-toggle:hover,
+.navbar-custom .navbar-toggle:focus {
+  background-color: #18BC9C;
+  color: white;
+  border-color: #18BC9C;
+}
+
+@media only screen and (max-width: 768px){
+  li a{
+  display: block;
+  }
+}
+
+ @media only screen and(max-width: 480px){
+  	.navbar-custom{
+  		position: fixed;
+        display: block;
+        height: 200px;
+    }
+ }
+hr.star-light,
+hr.star-primary {
+  padding: 0;
+  border: none;
+  border-top: solid 5px;
+  text-align: center;
+  max-width: 250px;
+  margin: 25px auto 30px;
+}
+hr.star-light:after,
+hr.star-primary:after {
+  content: "\f005";
+  font-family: FontAwesome;
+  display: inline-block;
+  position: relative;
+  top: -0.8em;
+  font-size: 2em;
+  padding: 0 0.25em;
+}
+hr.star-light {
+  border-color: white;
+}
+hr.star-light:after {
+  background-color: #FFA500;
+  color: white;
+}
+hr.star-primary {
+  border-color: #2C3E50;
+}
+hr.star-primary:after {
+  background-color: white;
+  color: #2C3E50;
+}
+.container-header{
+  box-sizing: border-box;
+  width: 100%;
+  height: auto;
+  padding: 100px 0;
+  text-align: center;
+  color: white;
+  margin-top: 2px;
+  background-color: #FFA500;
+}
+.container-about{
+  box-sizing: border-box;
+  width: 100%;
+  height: auto;
+  padding-top: 25px;
+}
+.bg-orange{
+  box-sizing: border-box;
+  width: 100%;
+  height: auto;
+  padding: 30px 0px;
+  color: white;
+  margin-top: 2px;
+  background-color: #FFA500;
+}
+.intro .name-heading {
+  font-size: 40px;
+}
+.bg-grey{
+  background-color: #D3D3D3;
+}
